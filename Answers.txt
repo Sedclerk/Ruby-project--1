@@ -1,0 +1,24 @@
+
+a.	What is source control and how is it used in project development?
+
+
+Source control is part of a larger strategy to take one-off, hodge-podge code and make it well documented and ready for larger scale development. With source control, keeping track of your code doesn’t curtail development. Furthermore, you allow yourself the freedom to experiment, remove or make drastic changes to your code base knowing full well that you can rewind in time and compare what was changed or even revert back if need be.
+        In another way to define and the useful of Source control is one of the easiest things you can do to ensure successful collaboration is to place solutions, projects, and other shared resources under source control. Source control protects team resources from accidental deletion, protects individual changes from being blindly or unknowingly overwritten, and maintains a version-by-version history of all project files. Visual Studio .NET reduces the complexity of source control by making it an extension of project file management. You can perform all source control operations without ever leaving the Integrated Development Environment (IDE) or opening another application.
+Source control goes from being a convenience to a business necessity.
+
+
+b.	What is Github and why should we use it?
+
+
+            GitHub is a web-based hosting service for software development projects that use the Git revision control system . GitHub is one of the most popular open source code repository site in the world.
+
+            We should use it because Git works by reading a local code repository (just a folder containing code for your project) on your computer and the mirroring that code elsewhere (in this case, GitHub's servers). Initially we'll commit (i.e. send) your entire local repository to GitHub, but that's just a one-time affair. As you continue to work on your code, you'll simply commit changes. GitHub will then keep track of the changes you made, creating different versions of files so you can revert back to old ones if you want (or just keep track of those changes for other reasons). This is primarily why you'd want to use a version control system like git on your own, but additional benefits surface when using git to manage code with other people working on your project. When multiple developers commit code with git, GitHub becomes a central repository where all the code that everyone's working on can stay in sync. You'll commit your changes, and other developers will pull them (i.e. sync them to their local repository). You'll do the same with their code.
+
+
+
+
+c. What does it mean to "clone" a repository from Github?
+
+In an easy way to understand Clone, Cloning a repository means that you're downloading a copy of the source code from source control or you create a local copy of the code provided by developer. . In other words , cloning a git repository is basically downloading a code base to your own machine, so you can use, edit... this code base and You can simply do it with a command line.
+
+
